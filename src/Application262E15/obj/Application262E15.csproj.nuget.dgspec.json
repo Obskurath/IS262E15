@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj": {}
+    "/home/ghost-monkey/Net/IS262E15/src/Application262E15/Application262E15.csproj": {}
   },
   "projects": {
-    "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj": {
+    "/home/ghost-monkey/Net/IS262E15/src/Application262E15/Application262E15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj",
+        "projectUniqueName": "/home/ghost-monkey/Net/IS262E15/src/Application262E15/Application262E15.csproj",
         "projectName": "Application262E15",
-        "projectPath": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj",
+        "projectPath": "/home/ghost-monkey/Net/IS262E15/src/Application262E15/Application262E15.csproj",
         "packagesPath": "/home/ghost-monkey/.nuget/packages/",
-        "outputPath": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/obj/",
+        "outputPath": "/home/ghost-monkey/Net/IS262E15/src/Application262E15/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ghost-monkey/.nuget/NuGet/NuGet.Config"
