@@ -1,0 +1,72 @@
+@page
+@{
+    double lado = 5;
+    double numeroLados = 6;
+    double apotema = 3.5;
+    double altura = 10;   
+    double perimetro = Figura262E15.Perimetro(lado, numeroLados);
+    double area = Figura262E15.Area(perimetro, apotema, numeroLados);
+    double volumen = Figura262E15.Volumen(area, altura);
+}
+<style>
+    :root {
+        --bg: #f3f6fb;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --accent: #0f766e;
+    }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: radial-gradient(700px circle at top right, #dbeafe, transparent), var(--bg);
+        color: var(--text);
+    }
+    .page {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 32px 16px;
+    }
+    .card {
+        width: min(620px, 100%);
+        background: var(--card);
+        border-radius: 18px;
+        padding: 28px 30px 24px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 16px 36px rgba(31, 41, 55, 0.12);
+    }
+    .title {
+        margin: 0 0 6px;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+    }
+    .subtitle {
+        margin: 0 0 18px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+    .result {
+        margin: 12px 0;
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: #f8fafc;
+        border: 1px solid #eef2f7;
+        font-size: 16px;
+    }
+    .result strong {
+        color: var(--accent);
+        font-weight: 700;
+    }
+</style>
+
+<div class="page">
+    <div class="card">
+        <h1 class="title">Poligono regular</h1>
+        <p class="subtitle">Calculos con lado de @lado cm, apotema de @apotema cm y @numeroLados lados</p>
+        <p class="result">El perímetro de un polígono regular con <strong>@lado cm</strong> de cada uno de sus lados y con <strong>@numeroLados lados</strong> es de <strong>@perimetro</strong>.</p>
+        <p class="result">El área de un polígono regular con <strong>@lado cm</strong> en cada uno de sus lados, con <strong>@numeroLados</strong> y un apotema de <strong>@apotema cm</strong> es de <strong>@area</strong>.</p>
+        <p class="result">El volumen de un polígono regular con un área de <strong>@area cm2</strong> y una altura de <strong>@altura cm</strong> es de <strong>@volumen cm3</strong>.</p>
+    </div>
+</div>
