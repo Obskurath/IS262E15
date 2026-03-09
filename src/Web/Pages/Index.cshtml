@@ -1,12 +1,6 @@
 @page
 @{
-    double lado = 5;
-    int numeroLados = 6;
-    double apotema = 3.5;
-    double altura = 10;   
-    double perimetro = Figura262E15.Perimetro(lado, numeroLados);
-    double area = Figura262E15.Area(lado, apotema, numeroLados);
-    double volumen = Figura262E15.Volumen(area, altura);
+    var (perimetro, area, volumen) = Figura262E15.CalcularTodo();
 }
 <style>
     :root {
@@ -64,9 +58,9 @@
 <div class="page">
     <div class="card">
         <h1 class="title">Poligono regular</h1>
-        <p class="subtitle">Calculos con lado de @lado cm, apotema de @apotema cm y @numeroLados lados</p>
-        <p class="result">El perímetro de un polígono regular con <strong>@lado cm</strong> de cada uno de sus lados y con <strong>@numeroLados lados</strong> es de <strong>@perimetro</strong>.</p>
-        <p class="result">El área de un polígono regular con <strong>@lado cm</strong> en cada uno de sus lados, con <strong>@numeroLados</strong> y un apotema de <strong>@apotema cm</strong> es de <strong>@area</strong>.</p>
-        <p class="result">El volumen de un polígono regular con un área de <strong>@area cm2</strong> y una altura de <strong>@altura cm</strong> es de <strong>@volumen cm3</strong>.</p>
+        <p class="subtitle">Calculos con lado de @Figura262E15.Lado cm, apotema de @Figura262E15.Apotema cm y @Figura262E15.NumeroLados lados</p>
+        <p class="result">El perímetro de un polígono regular con <strong>@Figura262E15.Lado cm</strong> de cada uno de sus lados y con <strong>@Figura262E15.NumeroLados lados</strong> es de <strong>@perimetro cm</strong>.</p>
+        <p class="result">El área de un polígono regular con <strong>@Figura262E15.Lado cm</strong> en cada uno de sus lados, con <strong>@Figura262E15.NumeroLados</strong> y un apotema de <strong>@Figura262E15.Apotema cm</strong> es de <strong>@area cm2</strong>.</p>
+        <p class="result">El volumen de un polígono regular con un área de <strong>@area cm2</strong> y una altura de <strong>@Figura262E15.Altura cm</strong> es de <strong>@volumen cm3</strong>.</p>
     </div>
 </div>
