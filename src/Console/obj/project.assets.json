@@ -17,8 +17,8 @@
   "libraries": {
     "Application262E15/1.0.0": {
       "type": "project",
-      "path": "../Application262E15/Application262E15.csproj",
-      "msbuildProject": "../Application262E15/Application262E15.csproj"
+      "path": "../Application/Application262E15.csproj",
+      "msbuildProject": "../Application/Application262E15.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\ConsoleApp262E15\\ConsoleApp262E15.csproj",
+      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "projectName": "ConsoleApp262E15",
-      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\ConsoleApp262E15\\ConsoleApp262E15.csproj",
+      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "packagesPath": "C:\\Users\\Xeno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\ConsoleApp262E15\\obj\\",
+      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xeno\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application262E15\\Application262E15.csproj": {
-              "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application262E15\\Application262E15.csproj"
+            "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj": {
+              "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj"
             }
           }
         }
