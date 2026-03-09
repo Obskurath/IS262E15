@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
+      "projectUniqueName": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "projectName": "ConsoleApp262E15",
-      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
+      "projectPath": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "packagesPath": "C:\\Users\\Xeno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\obj\\",
+      "outputPath": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xeno\\AppData\\Roaming\\NuGet\\NuGet.Config"
