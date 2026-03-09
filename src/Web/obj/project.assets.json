@@ -17,8 +17,8 @@
   "libraries": {
     "Application262E15/1.0.0": {
       "type": "project",
-      "path": "../Application262E15/Application262E15.csproj",
-      "msbuildProject": "../Application262E15/Application262E15.csproj"
+      "path": "../Application/Application262E15.csproj",
+      "msbuildProject": "../Application/Application262E15.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -27,33 +27,32 @@
     ]
   },
   "packageFolders": {
-    "/home/ghost-monkey/.nuget/packages/": {}
+    "C:\\Users\\Xeno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/WebApp262E15/WebApp262E15.csproj",
+      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Web\\WebApp262E15.csproj",
       "projectName": "WebApp262E15",
-      "projectPath": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/WebApp262E15/WebApp262E15.csproj",
-      "packagesPath": "/home/ghost-monkey/.nuget/packages/",
-      "outputPath": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/WebApp262E15/obj/",
+      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Web\\WebApp262E15.csproj",
+      "packagesPath": "C:\\Users\\Xeno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ghost-monkey/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Xeno\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj": {
-              "projectPath": "/home/ghost-monkey/Net/IS262E15Ejercicio06/src/Application262E15/Application262E15.csproj"
+            "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj": {
+              "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj"
             }
           }
         }
@@ -92,7 +91,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
