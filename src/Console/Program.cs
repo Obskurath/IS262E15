@@ -2,7 +2,7 @@
 //Variables
 double lado = 5;
 double apotema = 3.5;
-double numeroLados = 6;
+int numeroLados = 6;
 double altura = 10;
 double perimetro = Figura262E15.Perimetro (lado,numeroLados);
 double area = Figura262E15.Area(lado,apotema,numeroLados);
