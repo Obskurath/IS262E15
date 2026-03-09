@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application262E15\\Application262E15.csproj",
+      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj",
       "projectName": "Application262E15",
-      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application262E15\\Application262E15.csproj",
+      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\Application262E15.csproj",
       "packagesPath": "C:\\Users\\Xeno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application262E15\\obj\\",
+      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xeno\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,7 +5,7 @@ double apotema = 3.5;
 double numeroLados = 6;
 double altura = 10;
 double perimetro = Figura262E15.Perimetro (lado,numeroLados);
-double area = Figura262E15.Area(perimetro,apotema,numeroLados);
+double area = Figura262E15.Area(lado,apotema,numeroLados);
 double volumen =Figura262E15.Volumen(area,altura);     
 
 //Salida de datos
