@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
+      "projectUniqueName": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "projectName": "ConsoleApp262E15",
-      "projectPath": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
+      "projectPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\ConsoleApp262E15.csproj",
       "packagesPath": "C:\\Users\\Xeno\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\obj\\",
+      "outputPath": "C:\\Users\\Xeno\\Dev\\Ing\\IS262E15\\src\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xeno\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -88,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
